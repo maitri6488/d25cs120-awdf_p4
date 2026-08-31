@@ -1,20 +1,20 @@
 # Practical 4: Task Management RESTful API with Express.js
 
-## 📌 Overview
+##  Overview
 This project is a RESTful Web API built with **Node.js** and **Express.js** for managing tasks. It demonstrates core backend architecture concepts including modular routing, custom request logging middleware, global error handling, and standard CRUD operations.
 
 ---
 
-## ✨ Features
-- 📋 **Task Management (CRUD)**: Create, Read, Update, and Delete tasks.
-- 🪵 **Custom Logger Middleware**: Logs every incoming HTTP request method, URL, and timestamp to the console.
-- ⚠️ **Global Error Handler**: Catches unhandled errors and returns structured JSON responses with HTTP `500` status codes.
-- 🚫 **404 Route Handler**: Handles undefined routes gracefully with a structured `404 Not Found` response.
-- 📦 **Modular Folder Architecture**: Separates routing, custom middleware, and core application logic.
+##  Features
+-  **Task Management (CRUD)**: Create, Read, Update, and Delete tasks.
+-  **Custom Logger Middleware**: Logs every incoming HTTP request method, URL, and timestamp to the console.
+-  **Global Error Handler**: Catches unhandled errors and returns structured JSON responses with HTTP `500` status codes.
+-  **404 Route Handler**: Handles undefined routes gracefully with a structured `404 Not Found` response.
+-  **Modular Folder Architecture**: Separates routing, custom middleware, and core application logic.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 prac4/
@@ -31,34 +31,14 @@ prac4/
 
 ---
 
-## 🛠️ Prerequisites & Installation
+## Prerequisites & Installation
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v14 or higher recommended)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-### Installation Steps
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/maitri6488/d25cs120-awdf_p4.git
-   cd d25cs120-awdf_p4
-   ```
-
-2. **Install Dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start the Server**
-   ```bash
-   node app.js
-   ```
-   *The server will start running at `http://localhost:3000`.*
-
----
-
-## 🚀 API Endpoint Documentation
+##  API Endpoint Documentation
 
 Base URL: `http://localhost:3000`
 
@@ -150,7 +130,7 @@ Base URL: `http://localhost:3000`
 
 ---
 
-## 🔧 Technologies Used
+##  Technologies Used
 - **Node.js**: JavaScript runtime environment.
 - **Express.js**: Web framework for Node.js.
 - **JavaScript (ES6+)**: Programming language.
